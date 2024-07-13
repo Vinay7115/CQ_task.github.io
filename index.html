@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <!-- <div class="logo">
+
+                 </div> -->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">Event</a></li>
+                    <li><a href="#contact">Login</a></li>
+                    <i id="cross" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i id="menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        </div>
+    </div>
+
+
+    <!-- --------------------box-------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Unveiling Excellence: Meet Our Event Main Committee</h1>
+
+            <div class="work-list">
+
+
+                <div class="work">
+                    <img src="box1.jpg">
+                    <div class="layer">
+                        <h2>(First Committee)</h2><br>
+                        <p>Disarmament and International Security aim to reduce and eliminate weapons to ensure global
+                            peace and stability. This involves nuclear disarmament, arms control, and preventing the
+                            spread of weapons of mass destruction, facilitated by international treaties and
+                            organizations like the United Nations.</p>
+                        <a href="https://www.un.org/en/ga/first/"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <div class="container1">Disarmament and International Security</div>
+                </div>
+
+
+
+
+                <div class="work">
+                    <img src="box2.jpg">
+                    <div class="layer">
+                        <h2>(Second Committee)</h2><br>
+                        <p>The Economic and Financial Committee focuses on global economic and financial issues,
+                            including sustainable development, international trade, and financial stability. It works to
+                            promote economic growth, reduce poverty, and address global financial crises through policy
+                            recommendations and international cooperation.</p>
+                        <a href="https://www.un.org/en/ga/second/index.shtml"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <div class="container1">Economic and Financial Committee</div>
+                </div>
+
+
+                <div class="work">
+                    <img src="box3.jpg">
+                    <div class="layer">
+                        <h2>(Third Committee)</h2><br>
+                        <p>This area addresses global social challenges, human rights, and cultural preservation. It
+                            focuses on improving social development, protecting human rights, promoting gender equality,
+                            and safeguarding cultural heritage. Efforts include advancing education, health, and
+                            welfare, combating discrimination, and supporting humanitarian aid.</p>
+                        <a href="https://www.un.org/en/ga/third/index.shtml"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <div class="container1">Social, Humanitarian & Cultural Issues</div>
+                </div>
+
+
+                <div class="work">
+                    <img src="box4.jpg">
+                    <div class="layer">
+                        <h2>(Fourth Committee)</h2><br>
+                        <p>The Special Political and Decolonization Committee addresses issues related to
+                            decolonization, peacekeeping, and political stability. It works on resolving conflicts,
+                            supporting self-determination for non-self-governing territories, and overseeing
+                            peacekeeping missions. The committee also deals with topics such as mine action, outer
+                            space, and the impact of atomic radiation.</p>
+                        <a href="https://www.un.org/en/ga/fourth/index.shtml"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <div class="container1">Special Political and Decolonization</div>
+                </div>
+
+
+                <div class="work">
+                    <img src="box5.jpg">
+                    <div class="layer">
+                        <h2>(Fifth Committee)</h2><br>
+                        <p>The Administrative and Budgetary Committee oversees the financial and administrative aspects
+                            of United Nations operations. It reviews and approves the organization's budget, ensures
+                            efficient use of resources, and monitors financial accountability. The committee plays a
+                            critical role in promoting transparency and effective management within the UN system.</p>
+                        <a href="https://www.un.org/en/ga/fifth/index.shtml"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    <div class="container1">Administrative and Budgetary Committee </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+
+    <!-- ------------------footer------------------ -->
+    
+<div class="copyright">
+    <p>&copy; 2024 Event Committee. All rights reserved. Made with <i class="fa-solid fa-heart"></i> by Vinay.</p>
+    </div>
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+   
+</body>
+
+</html>
